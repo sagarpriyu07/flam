@@ -1,0 +1,24 @@
+
+PARAMETRIC CURVE FITTING RESULTS
+================================
+
+Optimal Parameters:
+-------------------
+Angle (θ): 0.490759 radians  ≈ 28.118°
+Magnitude (M): 0.021389
+Horizontal shift (X): 54.901471
+
+Total L1 Error:
+---------------
+37865.093897
+
+LaTeX Expression:
+-----------------
+( t·cos(0.4908) - e^(0.0214|t|)·sin(0.3t)·sin(0.4908) + 54.9015, 42 + t·sin(0.4908) + e^(0.0214|t|)·sin(0.3t)·cos(0.4908) )
+
+Differential Evolution Status:
+------------------------------
+Success: True
+Message: Optimization terminated successfully.
+Iterations: 7
+Function Evaluations: 468
